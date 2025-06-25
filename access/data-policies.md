@@ -6,14 +6,12 @@ eleventyNavigation:
     parent: Access
     order: 300
 date: git Last Modified
-tags:
-    - access
 ---
 Data Policies are interesting in that they truly stop things from happening.
 
 ## What is a Data Policy?
 
-Data policies let you configure conditions on a table and related fields that are required or read-only.  When anything tries to change those fields, the data policy is checked and the change is either allowed or denied regardless how you do it.  
+Data policies let you configure conditions on a table and related fields that are required or read-only.  When anything tries to change those fields, the data policy is checked and the change is either allowed or denied regardless how you do it.
 
 ## When to use a Data Policy?
 

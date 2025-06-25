@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
                 {
                     "url": "{{ item.url | url }}",
                     "title": "{{ item.data.title | default: item.data.eleventyNavigation.key | default: item.inputPath | escape }}",
-                    "content": "{{ item.data.description | strip_newlines | strip_html | escape }} {{ item.data.tags | join: ' ' }} {{ item.content | strip_newlines | strip_html | escape }}"
+                    "content": "{{ item.data.description | strip_newlines | strip_html | escape }} {{ item.data.tags | join: ' ' }} {{ item.content | strip_newlines | strip_html | escape | removeEscapedCharacted }}"
                 }{% if forloop.last == false %},{% endif %}
             {% endif %}
         {% endfor %}

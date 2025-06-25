@@ -6,8 +6,6 @@ eleventyNavigation:
     parent: Access
     order: 600
 date: git Last Modified
-tags:
-    - access
 ---
 Installation Exits allow you to create and edit alternative ways to authenticate.  These are rarely discussed now, but it's a good thing to know about.
 
