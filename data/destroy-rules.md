@@ -10,3 +10,5 @@ date: git Last Modified
 ---
 
 https://www.servicenow.com/docs/csh?topicname=cmdb-data-management.html&version=latest
+
+- [Video: Justin Meadows - Archive and Destroy Rules](https://www.youtube.com/watch?v=36CXcv3R5sg)
