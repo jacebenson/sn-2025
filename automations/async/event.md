@@ -8,6 +8,8 @@ eleventyNavigation:
 date: git Last Modified
 ---
 
+[Docs](https://www.servicenow.com/docs/csh?topicname=c_ScheduleEvents.html&version=latest)
+
 Events are a crucial piece of how ServiceNow works.  Any new development ServiceNow has seems to be driven on events.  What do I mean by that?
 
 ServiceNow needs to keep things snappy. To do that if everything ran in current memory of the session your user is on it can seem sluggish.  

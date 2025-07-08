@@ -8,6 +8,7 @@ eleventyNavigation:
 date: git Last Modified
 ---
 
+[Docs](https://www.servicenow.com/docs/csh?topicname=c_Processors.html&version=latest)
 
 > I was talking to Nthumma about a problem. It was the need for a custom XML file for each incident. I knew of a way to do this, but it's old. Enter Processors.
 > 

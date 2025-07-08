@@ -8,6 +8,9 @@ eleventyNavigation:
     order: 3450
 date: git Last Modified
 ---
+
+[Docs](https://www.servicenow.com/docs/csh?topicname=c_SOAPWebService.html&version=latest)
+
 SOAP I don't even know that stands for.  Is it kind of integration that uses xml for everything
 Servicenow uses xml for everything as well so it makes sense that soap was there from the beginning
 

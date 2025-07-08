@@ -9,6 +9,8 @@ eleventyNavigation:
 date: git Last Modified
 ---
 
+[Docs](https://www.servicenow.com/docs/csh?topicname=c_ExecutionPlans.html&version=latest)
+
 > 🧠 These operate in memory or syncrounously.  They are not asynchronous.  If you do something slow, it will slow down the user experience.
 
 Execution plans were the first automation beyond business rules.  They deserve a special place in the documentation.

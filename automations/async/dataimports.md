@@ -8,4 +8,7 @@ eleventyNavigation:
     order: 2910
 date: git Last Modified
 ---
+
+[Docs](https://www.servicenow.com/docs/csh?topicname=configure-data-import.html&version=latest)
+
 Data imports are really important to ServiceNow

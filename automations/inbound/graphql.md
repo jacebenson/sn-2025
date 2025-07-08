@@ -8,10 +8,13 @@ eleventyNavigation:
     order: 3410
 date: git Last Modified
 ---
-Graph QL is fantastic to consume data fromhowever making a grahql endpoint is not for the faint of heart.
 
-The idea behind graph ql is that you can call one place and describe your payload you want to receive and get it so all calls to graphql are POSTs.
+[Docs](https://www.servicenow.com/docs/csh?topicname=scripted-graph-ql.html&version=latest)
 
-Graph QL uses things called resolvers to help identify what data you're trying to get and what form they take with their schema to make that all work though you have to define all these records in ServiceNow.  It's a lot.
+GraphQL is fantastic to consume data from however making a grahql endpoint is not for the faint of heart.
 
-Before Servicenow implemented their own graph ql implementation they also had something similar that they called batch REST api.  This allowed somebody to make a bunch of server set calls with one rest payloadwhich gave you the benefits of the speed performance enhancements that graph Cuelle might give you without the complexity of configuring it and using it you can literally just wrap a ton of table calls with it.
+The idea behind GraphQL is that you can call one place and describe your payload you want to receive and get it so all calls to graphql are POSTs.
+
+GraphQL uses things called resolvers to help identify what data you're trying to get and what form they take with their schema to make that all work though you have to define all these records in ServiceNow.  It's a lot.
+
+Before Servicenow implemented their own GraphQL implementation they also had something similar that they called batch REST API.  This allowed someone to make a bunch of server set calls with one rest payload which gave you the benefits of the speed performance enhancements that GraphQL might give you without the complexity of configuring it and using it you can literally just wrap a ton of table calls with it.

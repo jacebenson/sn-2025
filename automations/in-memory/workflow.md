@@ -8,6 +8,9 @@ eleventyNavigation:
     order: 2400
 date: git Last Modified
 ---
+
+[Docs](https://www.servicenow.com/docs/csh?topicname=c_WorkflowOverview.html&version=latest)
+
 Workflow, or now called, "Legacy Workflow" worked for a very long time in ServiceNow and ran in memory.  This running in memory is why many workflows would have a "Timer" activity as the first activitity as that would force this to run on the event queue giving users back their session.
 
 Many like to compare Workflow to Flow Designer but the comparison is not an apples to apples.  If you want a fair comparison, Workflow vs Playbooks would be more apt and heres why.

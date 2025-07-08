@@ -9,6 +9,8 @@ eleventyNavigation:
 date: git Last Modified
 ---
 
+[Docs](https://www.servicenow.com/docs/csh?topicname=r_ScriptActions.html&version=latest)
+
 Script actions are so powerfulbecause Servicenow has a very robust event driven design.  And the script actions they execute code for any given event.  Script actions run based on those events in those events are the results of triggers.  When I say triggers I mean the cyst trigger table which powers all of the events in service now and all of the scheduled stuff that happens in a queue and ServiceNow.
 
 

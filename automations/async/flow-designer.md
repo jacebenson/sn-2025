@@ -7,6 +7,9 @@ eleventyNavigation:
     order: 3300
 date: git Last Modified
 ---
+
+[Docs](https://www.servicenow.com/docs/csh?topicname=flow-designer.html&version=latest)
+
 Flows are the new most popular way to automate on a recurring basis or after most inserts and updates.
 
 Flow Designer is a low-code way to trigger and handle some inbound things.
