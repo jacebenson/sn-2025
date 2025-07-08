@@ -11,6 +11,8 @@ ServiceNow started with IT Service Management (ITSM).
 
 ITSM contain following items.  Things with a `*` may not be in all versions of the SKUs
 
+<details open="true"><summary>Standard</summary>
+
 1. [Incident]
 2. [Problem]
 3. [Change]
@@ -22,6 +24,54 @@ ITSM contain following items.  Things with a `*` may not be in all versions of t
 9. *Spokes and Protocols
 10. *Universal Request
 11. *[Digital Portfolio Management]
+
+</details>
+<details><summary>Professional</summary>
+
+1. [Incident]
+2. [Problem]
+3. [Change]
+4. [Request] ([Service Catalog])
+5. [Knowledge]
+6. [Asset Management]
+7. [Cost Management]
+8. *Walk-Up Experience
+9. *Spokes and Protocols
+10. *Universal Request
+11. *[Digital Portfolio Management]
+12. Continual  Improvement Management
+13. DevOps Change Velocity
+14. Mobile Publishing
+15. Platform Analytics Advanced
+16. Predictive Intelligence
+17. Vendor Manager Workspace
+18. Virtual Agent
+
+</details>
+<details><summary>Enterprise</summary>
+
+1. [Incident]
+2. [Problem]
+3. [Change]
+4. [Request] ([Service Catalog])
+5. [Knowledge]
+6. [Asset Management]
+7. [Cost Management]
+8. *Walk-Up Experience
+9. *Spokes and Protocols
+10. *Universal Request
+11. *[Digital Portfolio Management]
+12. Continual  Improvement Management
+13. DevOps Change Velocity
+14. Mobile Publishing
+15. Platform Analytics Advanced
+16. Predictive Intelligence
+17. Vendor Manager Workspace
+18. Virtual Agent
+19. Process Mining
+20. Workforce Optimization
+
+</details>
 
 
 
