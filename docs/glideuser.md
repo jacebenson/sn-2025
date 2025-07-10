@@ -1,7 +1,13 @@
 ---
 title: GlideUser
 description: ServiceNow's GlideUser.
+layout: libdoc_page.liquid
+eleventyNavigation:
+    key: GlideUser
+    parent: Docs
+date: git Last Modified
 ---
+
 
 # What is GlideUser
 
@@ -16,7 +22,7 @@ in Servicenow. I go over all the methods and properties of those below.
     Cheatsheet](https://www.servicenowguru.com/scripting/user-object-cheat-sheet/)
 
 | Method                | Scoped                    | Global                           |
-|-----------------------|---------------------------|----------------------------------|
+| --------------------- | ------------------------- | -------------------------------- |
 | getCompanyID          | [Scoped](#getcompanyid)   | [Global](#getcompanyid)          |
 | getDisplayName        | [Scoped](#getdisplayname) | [Global](#getdisplayname)        |
 | getEmail              | [Scoped](#getemail)       | [Global](#getemail)              |
