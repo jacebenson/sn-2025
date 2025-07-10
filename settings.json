@@ -4,13 +4,8 @@
     "author": "Jace Benson",
     "faviconUrl": "/assets/myfavicon.png",
     "blogTitle": "Blog",
-    "customLinks": [
-        {
-            "url": "https://github.com/ita-design-system/eleventy-libdoc",
-            "text": "GitHub"
-        }
-    ],
-    "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main",
+    "customLinks": [],
+    "editThisPageRootUrl": "https://github.com/jacebenson/sn-2025/blob/main",
     "searchEnabled": true,
     "hljsLanguages": [
         "xml",
