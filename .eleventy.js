@@ -9,6 +9,7 @@ import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import libdocConfig from "./_data/libdocConfig.js";
 import libdocFunctions from "./_data/libdocFunctions.js";
 // END LibDoc imports
+import { getLinks, getEntitlements } from "./_data/skus.js";
 
 export default function (eleventyConfig) {
     // START PLUGINS
@@ -41,6 +42,11 @@ export default function (eleventyConfig) {
     eleventyConfig.addShortcode("iconCard", libdocFunctions.shortcodes.iconCard);
     eleventyConfig.addPairedShortcode("sandbox", libdocFunctions.shortcodes.sandbox);
     eleventyConfig.addPairedShortcode("sandboxFile", libdocFunctions.shortcodes.sandboxFile);
+    eleventyConfig.addShortcode('tag', (arg) => `<div>${arg}</div>`);
+    eleventyConfig.addShortcode('sku', getLinks);
+    eleventyConfig.addShortcode('ent', getEntitlements);
+
+
     // END SHORTCODES
 
     // START FILE COPY

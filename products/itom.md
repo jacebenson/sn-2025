@@ -1,10 +1,10 @@
 ---
 title: ITOM
 layout: libdoc_page.liquid
-eleventyNavigation:
-    parent: Products
-    key: ITOM
-    order: 21100
+# eleventyNavigation:
+#     parent: Products
+#     key: ITOM
+#     order: 21100
 date: git Last Modified
 ---
 ServiceNow has had some with ITOM things since Discovery was added, and even before them, Help the Help Desk.

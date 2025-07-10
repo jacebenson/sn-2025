@@ -3,9 +3,9 @@ title: Products
 description: TODO:FIXME
 layout: libdoc_page.liquid
 permalink: products/index.html
-eleventyNavigation:
-    key: Products
-    order: 20000
+# eleventyNavigation:
+#     key: Products
+#     order: 20000
 date: git Last Modified
 ---
 
