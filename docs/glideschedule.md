@@ -6,6 +6,8 @@ eleventyNavigation:
     key: GlideSchedule
     parent: Docs
 date: git Last Modified
+tags: 
+    - stub
 ---
 
 

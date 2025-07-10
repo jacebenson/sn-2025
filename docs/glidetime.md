@@ -6,6 +6,8 @@ eleventyNavigation:
     key: GlideTime
     parent: Docs
 date: git Last Modified
+tags: 
+    - stub
 ---
 
 | Property/Method         | Description                                                                                      |

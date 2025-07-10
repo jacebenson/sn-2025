@@ -7,6 +7,6 @@ eleventyNavigation:
     key: Docs
     order: 10000
 date: git Last Modified
+tags: 
+    - stub
 ---
-
-Automations

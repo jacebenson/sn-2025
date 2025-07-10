@@ -6,6 +6,8 @@ eleventyNavigation:
     key: GlideRecordSecure
     parent: GlideRecord
 date: git Last Modified
+tags: 
+    - stub
 ---
 Official Docs: [GlideRecordSecure](https://docs.servicenow.com/search?q=GlideRecordSecure)
 

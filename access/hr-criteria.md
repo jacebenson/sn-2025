@@ -6,6 +6,8 @@ eleventyNavigation:
     parent: Access
     order: 950
 date: git Last Modified
+tags: 
+    - stub
 ---
 
 Similar to User Critera but based on the `sn_hr_core_profile`

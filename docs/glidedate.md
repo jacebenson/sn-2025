@@ -6,5 +6,7 @@ eleventyNavigation:
     key: GlideDate
     parent: Docs
 date: git Last Modified
+tags: 
+    - stub
 ---
 This is the GlideDate object. It’s used less than the GlideDateTime object.
