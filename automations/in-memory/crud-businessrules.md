@@ -78,3 +78,7 @@ After Delete is a great place to do cleanup.  Perhaps you want to delete related
 | Runs in memory   | Runs in memory | This is a pro because it's IMMEDIATE, it's a con because if you do a slow operation, it will slow down the user experience. |
 | Can do anything  | Scripted       | Business Rules use scripts.  If you're not comfortable with scripting, you may struggle with these.                         |
 | Straight forward |                | There isn't a lot of magic here.                                                                                            |
+
+## Additional Resources
+
+[Maik Skoddow - Useful Business Rules](https://www.servicenow.com/community/developer-articles/my-collected-list-of-useful-business-rules/ta-p/2467239)

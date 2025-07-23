@@ -55,5 +55,5 @@ Janel Wrote a series on Archiving and Reducing storage.
 - [Archiving | General Overview (support)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0782323)
 - [Video: Justin Meadows - Archive and Destroy Rules](https://www.youtube.com/watch?v=36CXcv3R5sg)
 - [Perspectium Archive Rules (and Destory Rules) Explained Blog Post](https://www.perspectium.com/blog/servicenow-archive-rules-explained/)
-
-
+- [Maik Skoddow - Platform Performance *Data Archiving*](https://www.servicenow.com/community/servicenow-ai-platform-articles/performance-amp-maintenance-knowledge-amp-troubleshooting/ta-p/2545677)
+- [Maik Skoddow - Archiving](https://www.servicenow.com/community/now-platform-articles/administration-data-archiving-knowledge-amp-troubleshooting/ta-p/2315540)

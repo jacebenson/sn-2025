@@ -45,4 +45,5 @@ Workflows are more like Business Rules, and Playbooks are more like Legacy Workf
 
 APIs to decode the base64-encoded byte array are not publicly documented, but you can use the following code to decode it:
 
-```javascript
+
+[Maik Skoddow - Flow Designer](https://www.servicenow.com/community/now-platform-articles/platform-flow-designer-knowledge-troubleshooting-resources/ta-p/2316818)

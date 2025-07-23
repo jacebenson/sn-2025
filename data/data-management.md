@@ -12,3 +12,5 @@ tags:
 ---
 
 https://www.servicenow.com/docs/csh?topicname=cmdb-data-management.html&version=latest
+
+[Maik Skoddow - Platform Performance *Data Management*](https://www.servicenow.com/community/servicenow-ai-platform-articles/performance-amp-maintenance-knowledge-amp-troubleshooting/ta-p/2545677)

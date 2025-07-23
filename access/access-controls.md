@@ -62,3 +62,4 @@ I haven't encountered many of these yet even though they are new.  They will byp
 - [Your ACLs and Business Rules are Broken by Tim Woodruff](https://snprotips.com/blog/2023/4/28/your-servicenow-acls-are-broken)
 - [ACLs are like a lock and key](https://blog.wiz0floyd.do/2022/07/acls-are-like-lock-and-key.html)
 - [Access Control Lists vs Before Query Business Rules by Jace Benson](https://jace.pro/p/2019-11-30-qbr-vs-acl)
+- [Maik Skoddow - Access Controls](https://www.servicenow.com/community/now-platform-articles/administration-security-amp-data-privacy-knowledge-amp/ta-p/2318032#acl)

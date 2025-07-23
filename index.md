@@ -12,4 +12,6 @@ date: git Last Modified
 1. {% iconCard 'Official API Reference', 'This is also refered to as the [Product Docs](https://www.servicenow.com/docs/csh?topicname=c_GlideRecordScopedAPI.html&version=latest).' %}
 2. {% iconCard 'Official Developer API Reference', 'This was my favorite, unfortunately you can only link to a specific family version of the docs.  Here\'s the [top level link](https://developer.servicenow.com/dev.do#!/reference).' %}
 3. {% iconCard 'Developer Learning (not learning.servicenow.com)', '[These frustrate me to a new level](https://developer.servicenow.com/dev.do#!/learn/courses/yokohama/app_store_learnv2_scripting_yokohama_scripting_in_servicenow/app_store_learnv2_scripting_yokohama_server_side_scripting/app_store_learnv2_scripting_yokohama_gliderecord).  They are not as complete as the Developer API Reference or the Product Docs but rank higher on Search Enginers.  I avoid them.' %}
-4. Your own instance.
+4. {% iconCard 'Maik Skoddow\'s Knowledge Sources To Go', 'Maik\'s [Knowledge Sources To Go](https://www.servicenow.com/community/training-and-certifications/knowledge-sources-to-go/ta-p/2310130) is a great resource for finding information quickly.' %}
+5. {% iconCard 'Mark Roethof\'s Content', 'Mark has a wealth of knowledge and his [content](https://www.servicenow.com/community/developer-blog/400-articles-blogs-videos-podcasts-share-projects-experiences/ba-p/2292127) is a great resource for learning more about ServiceNow.' %}
+6. Your own instance.

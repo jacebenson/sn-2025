@@ -21,3 +21,5 @@ Data fitlration is a DENY mechanism.  It allows you to deny access to records th
 Data Filtration adds the ability to restrict access by IP Address which before was complicated to do.  It also lets you restrict access by roles, and groups.
 
 There is one additional feature , Subject Criteria conditions allow you deny access conditionally based on the record.  For example, you could deny access to incidents where the caller is the user's manager.
+
+[Maik Skoddow - Data Filtration](https://www.servicenow.com/community/now-platform-articles/administration-security-amp-data-privacy-knowledge-amp/ta-p/2318032#data_filtration)
