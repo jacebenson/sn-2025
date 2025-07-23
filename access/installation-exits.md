@@ -9,6 +9,9 @@ date: git Last Modified
 tags: 
     - stub
 ---
+
+[Docs](https://www.servicenow.com/docs/csh?topicname=r_InstallationExits.html&version=latest)
+
 Installation Exits allow you to create and edit alternative ways to authenticate.  These are rarely discussed now, but it's a good thing to know about.
 
 ## Further Reading

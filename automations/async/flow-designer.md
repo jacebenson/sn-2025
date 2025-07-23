@@ -27,3 +27,22 @@ Where flow designers get you in trouble though is when you have problems with th
 In flow designer you have things called actionsthese can be ones you've created yourself or these can be out of box oneswhen you use an action you sometimes get a returned object or thing like a user recordto access the items or attributes of the user record those things are called pills and they're selectable on the right hand sideprobably because they look like pillspills can have functions applied to themthese functions you can apply to a pillare not obvious and they fail silently and they also don't tell you how they fail or what they failed.  Because of this I atomically avoid using pillsor the pill functions I should say instead i'll make another action and I'll pipe the value in to that action to handle it
 
 A lot of the features of flow designerare behind paywall like integration hubor different levels of integration hub or now what they call workflow data fabric whatever that is.
+
+## FAQ
+
+### What is the difference between Flow Designer and Workflow?
+
+Well, workflow is the older way to do a set of steps in a process.  Workflow is more akin to playbooks today.  As of Zurich, allegedly, legacy workflow will no longer be available on new instances.  
+
+Workflows are more like Business Rules, and Playbooks are more like Legacy Workflow.
+
+### How can I find what flows are using a specific refernce, or code snippet?
+
+> Jace is on the right track for flows where related inputs and outputs are using v2 functionality: they leverage a JSON object that has been converted to a base64-encoded byte array. There are ways to decode it, but the APIs for that are not publicly documented.
+> v1 functionality stored that information in sys_variable_value, related through to specific instances of actions and so on
+> You can review if your instance has v1 or v2 more prevalent by reviewing the associated tables for your flow and its actions
+>
+
+APIs to decode the base64-encoded byte array are not publicly documented, but you can use the following code to decode it:
+
+```javascript

@@ -7,6 +7,9 @@ eleventyNavigation:
     order: 300
 date: git Last Modified
 ---
+
+[Docs](https://www.servicenow.com/docs/csh?topicname=c_DataPolicy.html&version=latest)
+
 Data Policies are interesting in that they truly stop things from happening.
 
 ## What is a Data Policy?

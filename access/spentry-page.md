@@ -9,6 +9,9 @@ date: git Last Modified
 tags: 
     - stub
 ---
+
+[Docs](https://www.servicenow.com/docs/csh?topicname=c_SPSSOLoginAndRedirects.html&version=latest)
+
 This controls where someone lands when they login.
 
 ## Further Reading

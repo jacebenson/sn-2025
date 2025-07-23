@@ -8,6 +8,8 @@ eleventyNavigation:
 date: git Last Modified
 ---
 
+[Docs](https://www.servicenow.com/docs/csh?topicname=access-control-rules.html&version=latest)
+
 Access Controls(ACLs) are the most common way to restrict access to data in Servicenow.  However do not misunderstand.  Access controls do A LOT.
 
 ## Access Control Lists

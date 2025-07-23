@@ -10,6 +10,8 @@ tags:
     - stub
 ---
 
+[Docs](https://www.servicenow.com/docs/csh?topicname=hr-criteria.html&version=latest)
+
 Similar to User Critera but based on the `sn_hr_core_profile`
 
 > HR Criteria and User Criteria are used for securing access to things like Knowledge Bases and Articles, HR Services, Catalog Items/Record Producers.  You can create a User Criteria from HR Criteria, if you need the same conditions in places that use User Criteria only (i.e. "Can Read" on an article).  As far as synchronizing between the two, if you change the associated conditions/criteria, the changes are automatic to associate the correct users that fit the HR and/or User Criteria.  - [Susan Britt](https://www.servicenow.com/community/hrsd-forum/hr-criteria-and-user-criteria-in-servicenow/m-p/1295293/highlight/true#M5671)
