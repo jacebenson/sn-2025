@@ -98,6 +98,7 @@ You can create custom Java JAR files and upload them on the `ecc_agent_jar` tabl
 - [📺 47m - Chuck Tomasi - TechNow Episode 60 - How a MID server ...](https://www.youtube.com/watch?v=rJb0YDSCATo)
 - [📺 10m - Justin Meadows - ServiceNow MID Server Windows Server 2022](https://www.youtube.com/watch?v=3O8OG191pdU)
 - [📺 70m - Chris Nanda - ServiceNow MID Server Deep Dive](https://youtu.be/0ldGpEAxqGA?t=606)
+- [📺 6m - John J. Andersen - Custom JAR Files on a MID Server](https://www.youtube.com/watch?v=tOHuFVE3XNQ)
 - [📄 - John Dahl - Mid Server Docker Setup Script](https://github.com/johndahl-now/servicenow_mid_server_docker_setup_script)
 - [📄 - Boris Moers - Docker Mid Server Setup](https://github.com/bmoers/docker-mid-server)
 - [📄 - ServiceNow - MID Server Fundamentals](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0993941)
