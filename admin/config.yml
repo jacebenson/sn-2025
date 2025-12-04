@@ -17,7 +17,17 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - label: "Eleventy Navigation"
+        name: "eleventyNavigation"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - {label: "Key", name: "key", widget: "string", required: false}
+          - {label: "Parent", name: "parent", widget: "string", required: false}
+          - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
 
   - name: "ux"
     label: "🎨 UX"
@@ -32,7 +42,17 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - label: "Eleventy Navigation"
+        name: "eleventyNavigation"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - {label: "Key", name: "key", widget: "string", required: false}
+          - {label: "Parent", name: "parent", widget: "string", required: false}
+          - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
 
   - name: "data"
     label: "💾 Data"
@@ -45,7 +65,17 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - label: "Eleventy Navigation"
+        name: "eleventyNavigation"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - {label: "Key", name: "key", widget: "string", required: false}
+          - {label: "Parent", name: "parent", widget: "string", required: false}
+          - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
 
   - name: "automations"
     label: "⚙️ Automations"
@@ -60,7 +90,17 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - label: "Eleventy Navigation"
+        name: "eleventyNavigation"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - {label: "Key", name: "key", widget: "string", required: false}
+          - {label: "Parent", name: "parent", widget: "string", required: false}
+          - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
 
   - name: "access"
     label: "🔒 Access"
@@ -73,7 +113,17 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - label: "Eleventy Navigation"
+        name: "eleventyNavigation"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - {label: "Key", name: "key", widget: "string", required: false}
+          - {label: "Parent", name: "parent", widget: "string", required: false}
+          - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
 
   - name: "products"
     label: "📦 Products"
@@ -86,7 +136,17 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - label: "Eleventy Navigation"
+        name: "eleventyNavigation"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - {label: "Key", name: "key", widget: "string", required: false}
+          - {label: "Parent", name: "parent", widget: "string", required: false}
+          - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
 
   - name: "settings"
     label: "⚙️ Settings"
