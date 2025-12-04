@@ -5,52 +5,19 @@ backend:
 media_folder: "assets"
 public_folder: "/assets"
 
-# Shared field configuration
-_templates:
-  page_fields: &page_fields
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Description", name: "description", widget: "string"}
-    - {label: "Body", name: "body", widget: "markdown"}
-    - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
-    - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
-    - {label: "Tags", name: "tags", widget: "list", required: false}
-
 collections:
-  - name: "docs"
-    label: "📚 Documentation"
-    folder: "docs"
+  - name: "pages"
+    label: "📄 All Pages"
+    folder: "/"
     create: true
-    fields: *page_fields
-
-  - name: "ux"
-    label: "🎨 User Experiences"
-    folder: "ux"
-    create: true
-    fields: *page_fields
-
-  - name: "data"
-    label: "💾 Data"
-    folder: "data"
-    create: true
-    fields: *page_fields
-
-  - name: "automations"
-    label: "⚙️ Automations"
-    folder: "automations"
-    create: true
-    fields: *page_fields
-
-  - name: "access"
-    label: "🔒 Access"
-    folder: "access"
-    create: true
-    fields: *page_fields
-
-  - name: "products"
-    label: "📦 Products"
-    folder: "products"
-    create: true
-    fields: *page_fields
+    filter: {field: "layout", value: "libdoc_page.liquid"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
 
   - name: "settings"
     label: "⚙️ Site Settings"
