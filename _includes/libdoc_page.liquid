@@ -83,6 +83,7 @@
             productionUrl: `{{ libdocSystem.productionUrl }}`
         }
     </script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="d-flex fd-column ai-center | m-0">
     <div class="d-flex | w-100"
@@ -370,5 +371,16 @@
         <script src="/core/assets/js/hljs/languages/{{ hljsLang }}.min.js"></script>
     {% endfor %}
     <script src="/core/assets/js/ui.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 </body>
 </html>
