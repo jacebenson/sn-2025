@@ -16,6 +16,7 @@ collections:
     create: true
     nested:
       depth: 100
+      summary: '{{title}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -42,6 +43,7 @@ collections:
     create: true
     nested:
       depth: 100
+      summary: '{{title}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -68,6 +70,7 @@ collections:
     create: true
     nested:
       depth: 100
+      summary: '{{title}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -94,6 +97,7 @@ collections:
     create: true
     nested:
       depth: 100
+      summary: '{{title}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -120,6 +124,7 @@ collections:
     create: true
     nested:
       depth: 100
+      summary: '{{title}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -146,6 +151,7 @@ collections:
     create: true
     nested:
       depth: 100
+      summary: '{{title}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
     fields:
       - {label: "Title", name: "title", widget: "string"}
