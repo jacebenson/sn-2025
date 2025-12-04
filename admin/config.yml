@@ -2,176 +2,56 @@ backend:
   name: git-gateway
   branch: main
 
-# Uncomment if you want to use local development
-# local_backend: true
-
 media_folder: "assets"
 public_folder: "/assets"
 
+# Shared field configuration
+_templates:
+  page_fields: &page_fields
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Description", name: "description", widget: "string"}
+    - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+    - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+    - {label: "Tags", name: "tags", widget: "list", required: false}
+
 collections:
-  # Documentation
   - name: "docs"
     label: "📚 Documentation"
     folder: "docs"
     create: true
-    nested:
-      depth: 100
-      summary: '{{title}}'
-    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
-      - label: "Eleventy Navigation"
-        name: "eleventyNavigation"
-        widget: "object"
-        required: false
-        collapsed: true
-        fields:
-          - {label: "Key", name: "key", widget: "string", required: false}
-          - {label: "Parent", name: "parent", widget: "string", required: false}
-          - {label: "Order", name: "order", widget: "number", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
-      - {label: "Tags", name: "tags", widget: "list", required: false, collapsed: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: *page_fields
 
-  # User Experiences (with all subfolders)
   - name: "ux"
     label: "🎨 User Experiences"
     folder: "ux"
     create: true
-    nested:
-      depth: 100
-      summary: '{{title}}'
-    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
-      - label: "Eleventy Navigation"
-        name: "eleventyNavigation"
-        widget: "object"
-        required: false
-        collapsed: true
-        fields:
-          - {label: "Key", name: "key", widget: "string", required: false}
-          - {label: "Parent", name: "parent", widget: "string", required: false}
-          - {label: "Order", name: "order", widget: "number", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
-      - {label: "Tags", name: "tags", widget: "list", required: false, collapsed: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: *page_fields
 
-  # Data
   - name: "data"
     label: "💾 Data"
     folder: "data"
     create: true
-    nested:
-      depth: 100
-      summary: '{{title}}'
-    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
-      - label: "Eleventy Navigation"
-        name: "eleventyNavigation"
-        widget: "object"
-        required: false
-        collapsed: true
-        fields:
-          - {label: "Key", name: "key", widget: "string", required: false}
-          - {label: "Parent", name: "parent", widget: "string", required: false}
-          - {label: "Order", name: "order", widget: "number", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
-      - {label: "Tags", name: "tags", widget: "list", required: false, collapsed: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: *page_fields
 
-  # Automations
   - name: "automations"
     label: "⚙️ Automations"
     folder: "automations"
     create: true
-    nested:
-      depth: 100
-      summary: '{{title}}'
-    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
-      - label: "Eleventy Navigation"
-        name: "eleventyNavigation"
-        widget: "object"
-        required: false
-        collapsed: true
-        fields:
-          - {label: "Key", name: "key", widget: "string", required: false}
-          - {label: "Parent", name: "parent", widget: "string", required: false}
-          - {label: "Order", name: "order", widget: "number", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
-      - {label: "Tags", name: "tags", widget: "list", required: false, collapsed: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: *page_fields
 
-  # Access
   - name: "access"
     label: "🔒 Access"
     folder: "access"
     create: true
-    nested:
-      depth: 100
-      summary: '{{title}}'
-    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
-      - label: "Eleventy Navigation"
-        name: "eleventyNavigation"
-        widget: "object"
-        required: false
-        collapsed: true
-        fields:
-          - {label: "Key", name: "key", widget: "string", required: false}
-          - {label: "Parent", name: "parent", widget: "string", required: false}
-          - {label: "Order", name: "order", widget: "number", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
-      - {label: "Tags", name: "tags", widget: "list", required: false, collapsed: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: *page_fields
 
-  # Products
   - name: "products"
     label: "📦 Products"
     folder: "products"
     create: true
-    nested:
-      depth: 100
-      summary: '{{title}}'
-    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
-      - label: "Eleventy Navigation"
-        name: "eleventyNavigation"
-        widget: "object"
-        required: false
-        collapsed: true
-        fields:
-          - {label: "Key", name: "key", widget: "string", required: false}
-          - {label: "Parent", name: "parent", widget: "string", required: false}
-          - {label: "Order", name: "order", widget: "number", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
-      - {label: "Tags", name: "tags", widget: "list", required: false, collapsed: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: *page_fields
 
-  # Settings
   - name: "settings"
     label: "⚙️ Site Settings"
     files:
