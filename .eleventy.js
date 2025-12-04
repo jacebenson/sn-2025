@@ -54,6 +54,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("core/assets");
     eleventyConfig.addPassthroughCopy("favicon.png");
+    eleventyConfig.addPassthroughCopy("admin");
     // END FILE COPY
 
     eleventyConfig.addFilter("removeEscapedCharacted", function (value) {
