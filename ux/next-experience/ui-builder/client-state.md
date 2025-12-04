@@ -1,14 +1,11 @@
 ---
-title: Workspace
+title: Client State Parameters
 description: TODO:FIXME
 layout: libdoc_page.liquid
-# eleventyNavigation:
-#     key: Workspace
-#     parent: Next Experience
 date: git Last Modified
 eleventyNavigation:
-    key: Workspace
-    parent: Next Experience
+    key: Client State Parameters
+    parent: UI Builder
 tags: 
     - stub
 ---

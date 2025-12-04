@@ -1,14 +1,11 @@
 ---
-title: Workspace
+title: Events
 description: TODO:FIXME
 layout: libdoc_page.liquid
-# eleventyNavigation:
-#     key: Workspace
-#     parent: Next Experience
 date: git Last Modified
 eleventyNavigation:
-    key: Workspace
-    parent: Next Experience
+    key: Events
+    parent: UI Builder
 tags: 
     - stub
 ---
