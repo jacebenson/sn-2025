@@ -10,6 +10,7 @@ collections:
     label: "📄 All Pages"
     folder: "/"
     create: true
+    summary: "{{dirname}}/{{filename}} - {{title}}"
     filter: {field: "layout", value: "libdoc_page.liquid"}
     fields:
       - {label: "Title", name: "title", widget: "string"}
