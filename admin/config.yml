@@ -11,7 +11,10 @@ collections:
     folder: "/"
     create: true
     summary: "{{dirname}}/{{filename}} - {{title}}"
-    filter: {field: "layout", value: "libdoc_page.liquid"}
+    extension: "md"
+    format: "yaml-frontmatter"
+    nested:
+      depth: 100
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
