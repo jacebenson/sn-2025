@@ -6,17 +6,11 @@ media_folder: "assets"
 public_folder: "/assets"
 
 collections:
-  - name: "all-content"
-    label: "📄 All Content"
-    label_singular: "Page"
-    files:
-      # This approach won't work well either - let me try pattern matching
-    
-  - name: "content"
-    label: "📄 All Pages"  
-    folder: "**"
+  - name: "docs"
+    label: "📚 Docs"
+    folder: "docs"
     create: true
-    summary: "{{dirname}}/{{filename}} - {{title}}"
+    summary: "docs/{{filename}} - {{title}}"
     extension: "md"
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -24,10 +18,78 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
       - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
+
+  - name: "ux"
+    label: "🎨 UX"
+    folder: "ux"
+    create: true
+    summary: "ux/{{dirname}}/{{filename}} - {{title}}"
+    extension: "md"
+    nested:
+      depth: 10
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+
+  - name: "data"
+    label: "💾 Data"
+    folder: "data"
+    create: true
+    summary: "data/{{filename}} - {{title}}"
+    extension: "md"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+
+  - name: "automations"
+    label: "⚙️ Automations"
+    folder: "automations"
+    create: true
+    summary: "automations/{{dirname}}/{{filename}} - {{title}}"
+    extension: "md"
+    nested:
+      depth: 10
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+
+  - name: "access"
+    label: "🔒 Access"
+    folder: "access"
+    create: true
+    summary: "access/{{filename}} - {{title}}"
+    extension: "md"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
+
+  - name: "products"
+    label: "📦 Products"
+    folder: "products"
+    create: true
+    summary: "products/{{filename}} - {{title}}"
+    extension: "md"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "libdoc_page.liquid"}
+      - {label: "Date", name: "date", widget: "hidden", default: "git Last Modified"}
 
   - name: "settings"
-    label: "⚙️ Site Settings"
+    label: "⚙️ Settings"
     files:
       - label: "Site Settings"
         name: "site"
