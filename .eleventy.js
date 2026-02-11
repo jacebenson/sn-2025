@@ -10,6 +10,7 @@ import libdocConfig from "./_data/libdocConfig.js";
 import libdocFunctions from "./_data/libdocFunctions.js";
 // END LibDoc imports
 import { getLinks, getEntitlements } from "./_data/skus.js";
+import { markdownEquivalentsPlugin } from "./_data/markdown-equivalents.js";
 
 export default function (eleventyConfig) {
     // START PLUGINS
@@ -17,6 +18,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, libdocFunctions.pluginsParameters.eleventyImageTransform());
+    eleventyConfig.addPlugin(markdownEquivalentsPlugin);
     // END PLUGINS
 
     // START FILTERS
