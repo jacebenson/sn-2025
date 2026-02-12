@@ -6,7 +6,7 @@ eleventyNavigation:
     key: GlideQuery
     parent: Docs
 date: git Last Modified
-author: Petro Leite
+author: Pedro Leite
 ---
 
 GlideQuery is a modern alternative to **GlideRecord**, created to simplify database operations, reduce errors, and make your scripts more expressive and predictable.
