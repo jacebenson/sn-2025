@@ -9,7 +9,12 @@ date: git Last Modified
 tags: 
     - stub
 ---
-Official Docs: [GlideRecordSecure](https://docs.servicenow.com/search?q=GlideRecordSecure)
 
-[GlideRecordSecure](/reference/gliderecordsecure/) is a class inherited from [GlideRecord](/reference/gliderecord/) that performs the same functions as GlideRecord, and also enforces ACLs
+[GlideRecordSecure](/docs/gliderecordsecure/) is a class inherited from [GlideRecord](/docs/gliderecord/) that performs the same functions as GlideRecord, and also enforces ACLs.
+
+## Query Operators
+
+GlideRecordSecure uses the same [Query Operators](/docs/operators/) as GlideRecord for filtering records.
+
+Official Docs: [GlideRecordSecure](https://docs.servicenow.com/search?q=GlideRecordSecure)
 

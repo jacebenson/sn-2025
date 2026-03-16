@@ -8,11 +8,11 @@ eleventyNavigation:
 date: git Last Modified
 ---
 
-The scoped GlideAggregate class is an extension of GlideRecord and allows database aggregation (COUNT, SUM, MIN, MAX, AVG) queries to be done. This can be helpful in creating customized reports or in calculations for calculated fields. The GlideAggregate class works only on number fields. Since currency fields are strings, you can't use the GlideAggregate class on currency fields
+The scoped [GlideAggregate](/docs/glideaggregate/) class is an extension of [GlideRecord](/docs/gliderecord/) and allows database aggregation (COUNT, SUM, MIN, MAX, AVG) queries to be done. This can be helpful in creating customized reports or in calculations for calculated fields. The [GlideAggregate](/docs/glideaggregate/) class works only on number fields. Since currency fields are strings, you can't use the [GlideAggregate](/docs/glideaggregate/) class on currency fields.
+
+> **Query Operators:** GlideAggregate uses the same [Query Operators](/docs/operators/) as GlideRecord for filtering records before aggregation.
 
 Official Docs: [GlideAggregate](https://docs.servicenow.com/search?q=GlideAggregate)
-
-The scoped [GlideAggregate](/reference/glideaggregate/) class is an extension of [GlideRecord](/reference/gliderecord/) and allows database aggregation (COUNT, SUM, MIN, MAX, AVG) queries to be done. This can be helpful in creating customized reports or in calculations for calculated fields. The [GlideAggregate](/reference/glideaggregate/) class works only on number fields. Since currency fields are strings, you can't use the [GlideAggregate](/reference/glideaggregate/) class on currency fields
 
 ## addAggregate
 Adds an aggregate
@@ -69,17 +69,17 @@ Sets whether the results are to be grouped
 
 
 ## next
-Moves to the next record in the [GlideAggregate](/reference/glideaggregate/)
+Moves to the next record in the [GlideAggregate](/docs/glideaggregate/)
 ## getRowCount
-Retrieves the number of rows in the [GlideRecord](/reference/gliderecord/)
+Retrieves the number of rows in the [GlideRecord](/docs/gliderecord/)
 ## getAggregateEncodedQuery
-Gets the query necessary to return the [current](/reference/current/) aggregate
+Gets the query necessary to return the [current](/docs/current/) aggregate
 ## addAggregate
 Adds an aggregate
 ## query
 Issues the query and gets the results
 ## getTableName
-Retrieves the table name associated with this [GlideRecord](/reference/gliderecord/)
+Retrieves the table name associated with this [GlideRecord](/docs/gliderecord/)
 ## getCategory
 Gets the optional category value of the query
 ## orderBy
@@ -87,7 +87,7 @@ Orders the aggregates using the value of the specified field. The field will als
 ## orderByDesc
 Sorts the aggregates into descending order based on the specified field
 ## hasNext
-Determines if there are any more results in the [GlideAggregate](/reference/glideaggregate/)
+Determines if there are any more results in the [GlideAggregate](/docs/glideaggregate/)
 ## groupBy
 Provides the name of a field to use in grouping the aggregates. May be called numerous times to set multiple group fields
 ## getEncodedQuery

@@ -11,6 +11,8 @@ author: Pedro Leite
 
 GlideQuery is a modern alternative to **GlideRecord**, created to simplify database operations, reduce errors, and make your scripts more expressive and predictable.
 
+> **Query Operators:** GlideQuery supports the same [Query Operators](/docs/operators/) as GlideRecord for filtering records.
+
 ## What is GlideQuery?
 
 `GlideQuery` is a server‑side script include that provides a fluent, chainable, and strongly validated API for querying, modifying, aggregating, and streaming records.
@@ -51,7 +53,9 @@ Unlike `GlideRecord`, which can fail silently or behave inconsistently, GlideQue
 
 ---
 
-# GlideQuery Operators
+## GlideQuery Operators
+
+GlideQuery supports the standard [Query Operators](/docs/operators/). Here are the most commonly used ones:
 
 | Operator | Usage | Example |
 |----------|--------|---------|
@@ -63,6 +67,8 @@ Unlike `GlideRecord`, which can fail silently or behave inconsistently, GlideQue
 | `STARTSWITH` | Starts with | `.where('number', 'STARTSWITH', 'INC')` |
 | `ENDSWITH` | Ends with | `.where('email', 'ENDSWITH', '@example.com')` |
 | `LIKE` | Contains | `.where('short_description', 'LIKE', 'db')` |
+
+For the complete list of operators, see [Query Operators](/docs/operators/).
 
 ---
 
