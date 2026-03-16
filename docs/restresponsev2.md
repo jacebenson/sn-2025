@@ -8,10 +8,9 @@ eleventyNavigation:
 date: git Last Modified
 ---
 
-[Developer Documentation](https://docs.servicenow.com/csh?version=latest&topicname=c_RESTResponseV2API)
+[Developer Documentation](https://docs.servicenow.com/csh?version=latest&topicname=c_RESTResponseV2API) | [RESTMessageV2 Reference](/docs/restmessagev2/) | [Outbound REST Guide](/automations/outbound/rest/scripted/)
 
-
-This is generally generated from a [RESTMessageV2](/docs/restmessagev2/) call.
+This is generally generated from a RESTMessageV2 call.
 
 ## getStatusCode
 

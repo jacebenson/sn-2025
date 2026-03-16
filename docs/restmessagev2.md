@@ -8,7 +8,7 @@ eleventyNavigation:
 date: git Last Modified
 ---
 
-[Developer Documentation](https://docs.servicenow.com/csh?version=latest&topicname=c_RESTMessageV2API)
+[Developer Documentation](https://docs.servicenow.com/csh?version=latest&topicname=c_RESTMessageV2API) | [RESTResponseV2 Reference](/docs/restresponsev2/) | [Outbound REST Guide](/automations/outbound/rest/scripted/)
 
 ## setMIDServer
 
@@ -123,4 +123,4 @@ asynchronous calls
 
 Get the ECC topic for the REST message
 
-[Working with the response on this page](docs/restresponsev2)
+
